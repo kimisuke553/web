@@ -341,5 +341,8 @@ a:hover { color: #996600; }
 	background-color: rgba(0,0,0,0.4);
 }
 
+p.comment{
+	color: #000;
+}
 
 
