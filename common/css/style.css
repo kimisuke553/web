@@ -336,17 +336,69 @@ a:hover { color: #996600; }
 	opacity: 0.7;
 }
 
+/*　メインビジュアル　*/
+#pageBody .mainVisual{
+	position: relative;
+}
+#pageBody .mainVisual img{
+	vertical-align: bottom;
+}
 #pageBody .mainVisual .mainVisualText{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
 	color: #fff;
 	background-color: rgba(0,0,0,0.4);
+	width: 400px;
+	padding: 15px 25px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+#pageBody .mainVisual .mainVisualText h1{
+	font-size: 26px;
+	line-height: 1.231;
+	margin: 0;
+}
+#pageBody .mainVisual .mainVisualText p{
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 0;
 }
 
-p.comment{
-	color: #000;
+/* つくったもの */
+.portfolIndex{
+	margin-top: 40px;
 }
-#test p.test2{
-	color: #cccccc;
-	margin: 30px;
-	font-size: 14px;
+.portfolIndex:after{
+	content: "";
+	clear: both;
+	display: block;
 }
+
+.portfolIndex article{
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+}
+.portfolIndex article:first-child{
+	margin-left: 0;
+}
+.portfolIndex article h2{
+	font-size: 18px;
+	margin: 5px 0;
+}
+.portfolIndex article p{
+	margin-top: 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
 
