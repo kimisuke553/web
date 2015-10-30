@@ -344,5 +344,9 @@ a:hover { color: #996600; }
 p.comment{
 	color: #000;
 }
-
+#test p.test2{
+	color: #cccccc;
+	margin: 30px;
+	font-size: 14px;
+}
 
